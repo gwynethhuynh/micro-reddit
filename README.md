@@ -28,7 +28,7 @@ Things you may want to cover:
 - Users
     - id: integer [unique]
     - username: string [unique, 4-20 chars, present]
-    - password: string [4-20 chars, present]
+    - password: string [6-20 chars, present]
     - email: string [unique, present]
     - created_at:datetime
     - updated_at:datetime
